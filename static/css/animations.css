@@ -1,0 +1,59 @@
+h1{
+    animation-name:myanimations;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+#one{
+   color: red;
+    /* animation-name: deepseek;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    
+}
+#mydiv{
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    animation:rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes deepseek{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: chocolate;
+    }
+    50%{
+        color: crimson;
+    }
+    100%{
+        color: darkgreen;
+    }
+
+}
+@keyframes myanimations{
+    from{
+        transform: translateX(0);
+        color: red;
+    }
+    to{
+        transform: translateX(800px);
+        color: khaki;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg)
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}

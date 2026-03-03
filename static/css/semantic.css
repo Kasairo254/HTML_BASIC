@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family:cursive;
+    background-color: rgb(20, 184, 255);
+
+}
+header{
+    background-color: bisque;
+    padding: 10px ;
+    text-align: center;   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40;
+}
+nav ul a{
+    text-decoration: none;
+    color: darkred;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    background-color: chartreuse;
+    color: coral;
+    
+
+}
+main{
+    max-width: 80%;
+    margin: 10px auto;
+}
+section{
+    /* border: 1px solid blueviolet; */
+    padding: 10px;
+    margin:10px 0px;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+    font-style: inherit;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+
+}
+h3{
+    color: magenta;
+    text-align: center;
+}
+.profile{
+ width: 200px;
+ border-radius: 50%;
+ 
+
+}
+#container{
+    display: flex;
+
+} 
+.proj{
+    border: 1px solid crimson;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px plum;
+}
+form{
+    width:50%;
+    margin: 10px auto ;
+    
+}
+form label{
+    display: block;
+    font-weight: bold;
+
+
+
+}
+form input,form textarea {
+    border: 10px crimson 1px; 
+    width: 100%;
+    border-radius: 5px;    
+   
+}
+button{
+    background-color: plum;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+}
+footer{
+     background-color: bisque;
+    padding: 10px ;
+    text-align: center;
+
+}

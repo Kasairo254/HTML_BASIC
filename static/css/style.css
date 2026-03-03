@@ -1,0 +1,116 @@
+body{
+    background-color: aqua;
+    font-family: cursive;
+    margin: 0;
+}
+header{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+ul li {
+    display: inline;
+    margin: 10px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font size: 16px;
+}
+ul li a:hover{
+    background-color: brown;
+    color: antiquewhite;
+}
+h1{
+    color: blue;
+    text-align: center;
+
+}
+form{
+    width: 40%;
+    margin: 10px auto;
+    background-color: forestgreen;
+    padding: 10px;
+    border: 1px solid purple;
+}
+label{
+/* display: block; */
+
+}
+input,textarea,select{
+    border: 1px solid red;
+    width: 100% ;
+    border-radius: 5px;
+}
+input[type="radio"] {
+    width: 1px;
+}
+input[type="checkbox"]{
+    width: 1px;
+}
+button{
+    background-color: red;
+    width: 100%;
+    border: none;
+    color: none;
+    cursor: pointer
+}
+button:hover{
+    background-color: blueviolet;
+    color: golden;
+}
+h3,h4{
+    color: red;
+    text-align: center;
+}
+table{
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 100%;
+    
+}
+#student{
+    border: 1px solid red;
+}
+th,td{
+    border: 1px solid red;
+    text-align: left;
+}
+th{
+    color: black;
+    background-color: white;
+}
+h2{
+    color: rgb(76, 0, 255);
+
+}
+#services{
+    color: rgb(255, 64, 0);
+
+}    
+
+.demo{
+    color:magenta;
+
+}
+.chrome{
+    color: darkgoldenrod;
+}
+.profile{
+    border-radius: 80px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.proj{
+    color: sandybrown;
+    text-align: left;
+}
+.lorem{
+    color: firebrick;
+}

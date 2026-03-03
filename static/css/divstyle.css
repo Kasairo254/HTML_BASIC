@@ -1,0 +1,17 @@
+#mydiv{
+    background-color: cyan;
+    /* border-width: 1 px;
+    border-color: red;
+    border-style: dotted; */
+    border: 2px red dotted;
+    height: 200px;
+    padding:50px 20px 10px 30px;
+    margin: 20px;
+}
+.mission{
+    background-color: springgreen;
+    border-color: 2px royalblue;
+    border-style: dashed;
+    padding: 50px 20px 10px 30px;
+
+}

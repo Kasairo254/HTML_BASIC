@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    color: peru;
+}
+h3{
+    color: brown;
+}
+
+
+#container{
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content:center;
+
+}
+
+
+.service{
+    background-color: orange;
+    border: 1px solid black;
+    flex: 1PX;
+    border-radius: 5PX;
+    box-sha0dow: 5PX 5PX 5PX  5PX royalblue;
+ /* responsiveness    */
+
+}
+@media(max-width:768px){
+    body{
+        background-color: blue;
+    }
+    #container{
+        flex-direction: column;
+    }
+}
+
