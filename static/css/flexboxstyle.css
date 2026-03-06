@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: lightgoldenrodyellow;
 }
 h2{
     text-align: center;
@@ -24,7 +24,7 @@ h3{
     border: 1px solid black;
     flex: 1PX;
     border-radius: 5PX;
-    box-sha0dow: 5PX 5PX 5PX  5PX royalblue;
+    box-shadow: 5PX 5PX 5PX  5PX royalblue;
  /* responsiveness    */
 
 }
