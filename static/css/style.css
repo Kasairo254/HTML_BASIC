@@ -47,10 +47,7 @@ input,textarea,select{
     width: 100% ;
     border-radius: 5px;
 }
-input[type="radio"] {
-    width: 1px;
-}
-input[type="checkbox"]{
+input[id="gender" type="radio"] , input[type="checkbox"]{
     width: 1px;
 }
 button{
@@ -62,7 +59,7 @@ button{
 }
 button:hover{
     background-color: blueviolet;
-    color: golden;
+    color:goldenrod;
 }
 h3,h4{
     color: red;
@@ -113,4 +110,10 @@ h2{
 }
 .lorem{
     color: firebrick;
+}
+ form footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }

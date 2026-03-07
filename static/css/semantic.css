@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family:cursive;
     background-color: rgb(20, 184, 255);
-
+    
 }
 header{
     background-color: bisque;
@@ -19,7 +19,7 @@ nav ul a{
     text-decoration: none;
     color: darkred;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 nav ul a:hover{
     background-color: chartreuse;
@@ -60,6 +60,7 @@ h3{
 }
 #container{
     display: flex;
+    background-color: lightcoral;
 
 } 
 .proj{
@@ -100,5 +101,10 @@ footer{
      background-color: bisque;
     padding: 10px ;
     text-align: center;
+
+}
+#contact{
+    background-color: lightgray;
+    
 
 }
